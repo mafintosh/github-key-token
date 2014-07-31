@@ -11,14 +11,14 @@ npm install github-key-token
 ``` js
 var ghtoken = require('github-key-token')
 
-var verify = ghtoken.verifier('test', [
+var verify = ghtoken.verifier('my-app-name', [
   'mafintosh',
   'sorribas',
   'watson'
 ])
 
 // use your own username here - mine won't work for you :)
-var sign = ghtoken.signer('test', 'mafintosh')
+var sign = ghtoken.signer('my-app-name', 'mafintosh')
 
 sign(function(err, token) {
   if (err) throw err
@@ -36,7 +36,7 @@ sign(function(err, token) {
 Default TTL for the token is 3600s. To change this pass it as an option
 
 ``` js
-var sign = ghtoken.signer('test', 'mafintosh', {ttl:1000}) // 1000s ttl
+var sign = ghtoken.signer('my-app-name', 'mafintosh', {ttl:1000}) // 1000s ttl
 ```
 
 This module is useful if you are building semi private api and want to do auth
