@@ -4,7 +4,8 @@
   "description": "Use your local ssh private key to create a username token that can be verified using your Github public key",
   "main": "index.js",
   "dependencies": {
-    "base64url": "^0.0.6"
+    "base64url": "^0.0.6",
+    "ghsign": "^1.0.1"
   },
   "devDependencies": {},
   "repository": {
