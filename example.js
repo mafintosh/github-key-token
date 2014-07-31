@@ -1,5 +1,4 @@
 var ghtoken = require('./')
-var http = require('http')
 
 var verify = ghtoken.verifier('test', [
   'mafintosh',
