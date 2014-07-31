@@ -1,6 +1,6 @@
 {
   "name": "github-key-token",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Use your local ssh private key to create a username token that can be verified using your Github public key",
   "main": "index.js",
   "dependencies": {
