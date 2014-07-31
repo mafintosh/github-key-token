@@ -1,0 +1,29 @@
+{
+  "name": "github-key-token",
+  "version": "0.0.0",
+  "description": "Use your local ssh private key to create a username token that can be verified using your Github public key",
+  "main": "index.js",
+  "dependencies": {
+    "base64url": "^0.0.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/github-key-token"
+  },
+  "keywords": [
+    "ssh",
+    "private",
+    "key",
+    "gh",
+    "sign",
+    "public",
+    "crypto"
+  ],
+  "author": "Mathias Buus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/github-key-token/issues"
+  },
+  "homepage": "https://github.com/mafintosh/github-key-token"
+}
